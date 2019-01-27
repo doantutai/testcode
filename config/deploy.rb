@@ -38,7 +38,7 @@ set :linked_dirs, %w{
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
-set :local_url, 'beauty-health.sstechvn.com'
+set :local_url, 'testcode'
 
 namespace :deploy do
     task :link_plugins do
