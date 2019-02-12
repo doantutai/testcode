@@ -15,6 +15,7 @@ set :format, :pretty
 set :log_level, :debug
 
 # Default value for :pty is false
+set :rvm_map_bins
 set :rvm_map_bins, %w{gem rake ruby rails bundle}
 set :pty, true
 
